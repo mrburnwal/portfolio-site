@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Dhiraj Kumar Burnwal — DevOps Engineer, Cloud Enthusiast. Building scalable cloud infrastructure, CI/CD pipelines, and Exploring AI." />
+    <meta name="author" content="Dhiraj Kumar Burnwal" />
+    <meta name="keywords" content="DevOps, Cloud, Azure, AWS, Docker, Kubernetes, AI, Portfolio" />
+
+    <title>Dhiraj Kumar Burnwal | DevOps Engineer & Cloud Enthusiast</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;600;700;800;900&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav id="navbar">
+
+        <div class="logo">
+            <span class="logo-bracket">&lt;</span>MrBurnwal<span class="logo-bracket"> /&gt;</span>
+        </div>
+
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul id="nav-menu">
+            <li>
+                <a href="#about">
+                    About
+                </a>
+            </li>
+
+            <li>
+                <a href="#skills">
+                    Skills
+                </a>
+            </li>
+
+            <li>
+                <a href="#experience">
+                    Experience
+                </a>
+            </li>
+
+            <li>
+                <a href="#projects">
+                    Projects
+                </a>
+            </li>
+
+            <li>
+                <a href="#contact">
+                    Contact
+                </a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <!-- HERO -->
+
+    <section class="hero" id="hero">
+
+        <div class="hero-bg-grid"></div>
+
+        <div class="hero-content">
+
+            <p class="intro">
+                <span class="wave">👋</span> Hello, I'm
+            </p>
+
+            <h1>
+                Dhiraj Kumar<br /><span class="name-accent">Burnwal</span>
+            </h1>
+
+            <h2>
+                DevOps Engineer | Cloud Enthusiast
+            </h2>
+
+            <p class="description">
+                Building scalable cloud infrastructure,
+                CI/CD pipelines, automation systems
+                and modern web applications.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn primary-btn">
+                    <i class="fas fa-rocket"></i>
+                    View Projects
+                </a>
+
+                <a href="https://drive.google.com/file/d/1ua-NbKfHkRvRwFmCQ7wlRnEqYVi--Et_/view?usp=sharing"
+                    target="_blank" class="btn primary-btn">
+                    <i class="fas fa-file"></i>
+                    Resume
+                </a>
+            </div>
+
+            <div class="social-icons">
+
+                <a href="https://github.com/MrBurnwal" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://linkedin.com/in/MrBurnwal" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="scroll-indicator" id="scroll-indicator">
+            <span></span>
+        </div>
+
+    </section>
+
+    <!-- ABOUT -->
+
+    <section id="about" class="section">
+
+        <h2 class="section-title">
+            <span class="section-number">01.</span> About Me
+        </h2>
+
+        <div class="card about-card">
+
+            <div class="about-text">
+                <p>
+                    <strong>DevOps Engineer with 5 years of experience</strong> delivering cloud-native solutions and
+                    automating software delivery processes.
+                <p>
+                    <strong>Experienced in </strong>AWS Cloud, CI/CD pipeline development, containerization, Kubernetes
+                    orchestration, and Infrastructure as Code.
+                </p>
+                <p>
+                    <strong>Adept at </strong>improving deployment reliability, system performance, and
+                    operational efficiency through automation and modern DevOps practices.
+                </p>
+                <p>
+                    <strong>Strong communication and collaboration skills </strong>with experience working in
+                    multicultural and global teams, supporting mission-critical applications and digital transformation
+                    initiatives.
+                </p>
+            </div>
+
+            <div class="about-stats">
+                <div class="stat">
+                    <span class="stat-number" data-target="5">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="3">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Projects Delivered</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="10">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Technologies</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SKILLS -->
+
+    <section id="skills" class="section">
+
+        <h2 class="section-title">
+            <span class="section-number">02.</span> Skills & Tools
+        </h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-card" data-category="cloud">
+                <i class="fab fa-microsoft"></i>
+                <span>Azure</span>
+            </div>
+            <div class="skill-card" data-category="cloud">
+                <i class="fab fa-aws"></i>
+                <span>AWS</span>
+            </div>
+            <div class="skill-card" data-category="devops">
+                <i class="fab fa-docker"></i>
+                <span>Docker</span>
+            </div>
+            <div class="skill-card" data-category="devops">
+                <i class="fas fa-dharmachakra"></i>
+                <span>Kubernetes</span>
+            </div>
+            <div class="skill-card" data-category="devops">
+                <i class="fab fa-jenkins"></i>
+                <span>Jenkins</span>
+            </div>
+            <div class="skill-card" data-category="devops">
+                <i class="fab fa-python"></i>
+                <span>Python</span>
+            </div>
+            <div class="skill-card" data-category="devops">
+                <i class="fas fa-code-branch"></i>
+                <span>Terraform</span>
+            </div>
+            <div class="skill-card" data-category="data">
+                <i class="fas fa-chart-bar"></i>
+                <span>Databricks</span>
+            </div>
+            <div class="skill-card" data-category="devops">
+                <i class="fab fa-linux"></i>
+                <span>Linux</span>
+            </div>
+            <div class="skill-card" data-category="devops">
+                <i class="fab fa-github"></i>
+                <span>GitHub Actions</span>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- EXPERIENCE -->
+
+    <section id="experience" class="section">
+
+        <h2 class="section-title">
+            <span class="section-number">03.</span> Experience
+        </h2>
+
+        <div class="experience-timeline">
+
+            <!-- EXPERIENCE CARD -->
+
+            <div class="experience-card">
+
+                <div class="experience-marker"></div>
+
+                <div class="experience-header">
+
+                    <div>
+                        <h3>
+                            Tata Consultancy Services
+                        </h3>
+
+                        <h4>
+                            DevOps Engineer
+                        </h4>
+                    </div>
+
+                    <span class="experience-duration">
+                        <i class="far fa-calendar-alt"></i>
+                        2021 — Present
+                    </span>
+
+                </div>
+
+                <p class="experience-description">
+                    Worked across multiple enterprise client projects
+                    focusing on cloud infrastructure, CI/CD automation,
+                    deployment pipelines and monitoring solutions.
+                </p>
+
+                <div class="client-projects">
+
+                    <!-- CLIENT PROJECT 1 -->
+
+                    <div class="client-project">
+
+                        <h5>
+                            <i class="fas fa-building"></i>
+                            Client - Walgreens Boots Alliance (WBA)
+                        </h5>
+
+                        <ul>
+                            <li>Managed and monitored production Kubernetes (AKS) workloads and
+                                enterprise applications across multiple business domains, ensuring high
+                                availability, performance, and operational stability.
+                            </li>
+                            <li>Reduced incident volume by 70% and operational effort by 80 % through
+                                proactive root cause analysis, Kubernetes log investigation, automation, and
+                                implementation of preventive solutions.
+                            </li>
+                            <li>Collaborated with Development, QA, and Business teams to troubleshoot
+                                complex production issues, analyze application code, improve system reliability,
+                                and accelerate issue resolution.
+                            </li>
+                            <li>Designed and developed internal automation tools and web applications that
+                                streamlined team workflows, reduced manual effort, optimized Azure Cosmos
+                                DB RU consumption, and improved operational efficiency.
+                            </li>
+                            <li>Enhanced CI/CD pipelines and data processing workflows using Azure DevOps,
+                                Azure Data Factory, and Azure Databricks; created SOPs and trained team
+                                members to standardize support and operational processes.
+                        </ul>
+
+                    </div>
+
+                    <!-- CLIENT PROJECT 2 -->
+
+                    <div class="client-project">
+
+                        <h5>
+                            <i class="fas fa-industry"></i>
+                            Client - London Stocks Exchange (LSEG)
+                        </h5>
+
+                        <ul>
+                            <li>
+                                Worked with a team responsible for Remediation, Debugging and Deployment of 300+
+                                Mulesoft APIs.
+                            </li>
+                            <li>
+                                Migrated secrets/ sensitive credentials to Hasicorp Vault to reduce the risk of breaches
+                                and data exposure with identity-based security automation and encryption as a service.
+                            </li>
+                            <li>
+                                Worked on Jenkins pipeline to deploy APIs to different environment and testing of APIs.
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="client-project">
+
+                        <h5>
+                            <i class="fas fa-industry"></i>
+                            Client - American International Group (AIG)
+                        </h5>
+
+                        <ul>
+                            <li>
+                                Designed Terraform modules for infrastructure-as-code deployments.
+                            </li>
+
+                            <li>
+                                Implemented Kubernetes-based microservices architecture.
+                            </li>
+
+                            <li>
+                                Set up monitoring and alerting using Azure Monitor & Grafana.
+                            </li>
+
+                            <li>
+                                Automated routine operations, saving 15+ engineering hours per week.
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+
+    <section id="projects" class="section">
+
+        <h2 class="section-title">
+            <span class="section-number">04.</span> Projects
+        </h2>
+
+        <div class="projects-grid">
+
+            <!-- PROJECT 1 -->
+
+            <div class="project-card">
+
+                <div class="project-image-wrapper">
+                    <img src="assets/project1.jpg" alt="Heartbreak Hellfire — anonymous emotional sharing platform"
+                        loading="lazy" />
+                    <div class="project-overlay">
+                        <i class="fas fa-external-link-alt"></i>
+                    </div>
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-label">Featured Project</span>
+
+                    <h3>
+                        Heartbreak Hellfire
+                    </h3>
+
+                    <p>
+                        Anonymous emotional sharing platform
+                        with room-based real-time interaction.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>HTML5 MediaRecorder</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Flask</span>
+                        <span>Onrender</span>
+                    </div>
+
+                    <div class="project-buttons">
+
+                        <a href="https://github.com/MrBurnwal/heartbreak-hellfire" target="_blank"
+                            class="project-btn repo-btn">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+
+                        <button class="project-btn live-btn"
+                            onclick="visitWebsite('https://heartbreak-hellfire.onrender.com/room')">
+                            <i class="fas fa-external-link-alt"></i>
+                            Live
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- PROJECT 2 -->
+
+            <div class="project-card">
+
+                <div class="project-image-wrapper">
+                    <img src="assets/project2.png" alt="Cloud Subnet Pro - IP Address Calculator" loading="lazy" />
+                    <div class="project-overlay">
+                        <i class="fas fa-external-link-alt"></i>
+                    </div>
+                </div>
+                <div class="project-content">
+
+                    <span class="project-label">Featured Project</span>
+
+                    <h3>
+                        Cloud Subnet Pro - IP Address Calculator
+                    </h3>
+
+                    <p>
+                        Cloud Subnet Pro: An IP Address Calculator designed for ease of use by network
+                        engineers and cloud professionals.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>Flask</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Onrender</span>
+                    </div>
+
+                    <div class="project-buttons">
+
+                        <a href="https://github.com/mrburnwal/CloudSubnet-Pro" target="_blank"
+                            class="project-btn repo-btn">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+
+                        <button class="project-btn live-btn"
+                            onclick="visitWebsite('https://cloudsubnet-pro.onrender.com/')">
+                            <i class="fas fa-external-link-alt"></i>
+                            Live
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- PROJECT 3 -->
+
+            <div class="project-card">
+
+                <div class="project-image-wrapper">
+                    <img src="assets/project3.png" alt="Cloud Monitoring Dashboard" loading="lazy" />
+                    <div class="project-overlay">
+                        <i class="fas fa-external-link-alt"></i>
+                    </div>
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-label">Cloud</span>
+
+                    <h3>
+                        Cloud Monitoring Dashboard
+                    </h3>
+
+                    <p>
+                        Real-time monitoring dashboard for cloud
+                        infrastructure, metrics and logs.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>Azure</span>
+                        <span>React</span>
+                        <span>Node.js</span>
+                    </div>
+
+                    <div class="project-buttons">
+
+                        <a href="https://github.com/MrBurnwal" target="_blank" class="project-btn repo-btn">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+
+                        <button class="project-btn live-btn" onclick="visitWebsite('')">
+                            <i class="fas fa-external-link-alt"></i>
+                            Live
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="section">
+
+        <h2 class="section-title">
+            <span class="section-number">05.</span> Get In Touch
+        </h2>
+
+        <div class="card contact-card">
+
+            <h3>Let's Build Something Together</h3>
+
+            <p>
+                Open for collaborations,
+                opportunities and innovative projects.
+                Feel free to reach out!
+            </p>
+
+            <div class="contact-buttons">
+
+                <a href="mailto:mrburnwal01@gmail.com" class="btn primary-btn">
+                    <i class="fas fa-envelope"></i>
+                    Email Me
+                </a>
+
+                <a href="https://github.com/MrBurnwal" target="_blank" class="btn secondary-btn">
+                    <i class="fab fa-github"></i>
+                    GitHub
+                </a>
+
+                <a href="https://linkedin.com/in/MrBurnwal" target="_blank" class="btn secondary-btn">
+                    <i class="fab fa-linkedin"></i>
+                    LinkedIn
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <p>Designed & Built by <span class="footer-name">Dhiraj Kumar Burnwal</span></p>
+        <p class="footer-year">© 2026</p>
+    </footer>
+
+    <!-- POPUP -->
+
+    <div id="popup" class="popup hidden">
+
+        <div class="popup-content">
+
+            <i class="fas fa-exclamation-circle popup-icon"></i>
+
+            <p>
+                This project is not deployed currently.
+            </p>
+
+            <button onclick="closePopup()">
+                Got It
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
