@@ -140,7 +140,7 @@ const heroTitle = document.querySelector(".hero h2");
 const phrases = [
     "DevOps Engineer",
     "Cloud Enthusiast",
-    "Exploring AI"
+    "Exploring AI Technologies"
 ];
 
 let phraseIndex = 0;
